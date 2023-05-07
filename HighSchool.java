@@ -2,6 +2,11 @@ public class HighSchool extends School
 {
    public void describeSchool()
    {
-      System.out.print("Education level: Grades 9 - 12\n");
+      System.out.format(getSchoolName() + ":\n");
+      System.out.format("Address: %s",getSchoolAddress());
+      System.out.println("Education level: Grades 9 - 12");
+      System.out.format("Enrollment: %s\n",getEnrollment());
+      System.out.format("Principal: %s\n",getPrincipal());
+
    }
 }

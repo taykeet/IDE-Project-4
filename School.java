@@ -2,6 +2,8 @@ abstract public class School
 {
    private int enrollment;
    private String schoolName;
+   private String schoolAddress;
+   private String principal;
 
    public abstract void describeSchool();
    public void setEnrollment(int students)
@@ -21,8 +23,19 @@ abstract public class School
    {
       this.schoolName = schoolName;
    }
-   public void display() {
+   public String getSchoolAddress() {
+      return schoolAddress;
+   }
+   public void setSchoolAddress(String schoolAddress) {
+      this.schoolAddress = schoolAddress;
+   }
 
+   public String getPrincipal() {
+      return principal;
+   }
+
+   public void setPrincipal(String principal) {
+      this.principal = principal;
    }
 }
 

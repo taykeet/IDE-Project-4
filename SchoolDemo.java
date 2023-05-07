@@ -10,8 +10,12 @@ public class SchoolDemo implements SchoolConstants
 
        School auburnElementary = new ElementarySchool();
        auburnElementary.setEnrollment(400);
-       auburnElementary.setSchoolName(("Auburn Elementary:"));
+       auburnElementary.setSchoolName(("Auburn Elementary"));
+       auburnElementary.setSchoolAddress("1760 Auburn School Drive\nRiner, VA 24149\n");
+       auburnElementary.setPrincipal("Kim Rygas");
        auburnElementary.describeSchool();
+
+
 
 
    }
