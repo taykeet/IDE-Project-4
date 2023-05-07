@@ -2,10 +2,17 @@ public class SchoolDemo implements SchoolConstants
 {
    public static void main(String[] args)
    {
-       HighSchool wilsonHigh = new HighSchool();
-       wilsonHigh.setEnrollment(400);
-       wilsonHigh.describeLevel();
-       System.out.println("Enrollment is " +
-          wilsonHigh.getEnrollment());
+       System.out.println("---------------------------------");
+       System.out.print("School System: " + SYSTEMNAME + "Telephone: " + COUNTYTEL + "Current Superintendent: " + SUPERINT);
+       System.out.println("Here is a list of all the schools within the district:");
+       System.out.println("---------------------------------");
+
+
+       School auburnElementary = new ElementarySchool();
+       auburnElementary.setEnrollment(400);
+       auburnElementary.setSchoolName(("Auburn Elementary:"));
+       auburnElementary.describeSchool();
+
+
    }
 }

@@ -1,7 +1,6 @@
 public class MiddleSchool extends School {
-    public void describeLevel()
+    public void describeSchool()
     {
-        System.out.println("This is a high school " +
-                "serving grades 6 through 8");
+        System.out.print("Education level: Grades 6 - 8\n");
     }
 }

@@ -1,7 +1,9 @@
 abstract public class School
 {
    private int enrollment;
-   public abstract void describeLevel();
+   private String schoolName;
+
+   public abstract void describeSchool();
    public void setEnrollment(int students)
    {
       enrollment = students;
@@ -10,4 +12,17 @@ abstract public class School
    {
       return enrollment;
    }
+   public String getSchoolName()
+   {
+      return schoolName;
+   }
+
+   public void setSchoolName(String schoolName)
+   {
+      this.schoolName = schoolName;
+   }
+   public void display() {
+
+   }
 }
+
