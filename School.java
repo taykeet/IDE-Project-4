@@ -1,11 +1,16 @@
 abstract public class School
 {
+   //varibales for each school
    private int enrollment;
    private String schoolName;
    private String schoolAddress;
    private String principal;
 
+
+// Required abstract/contract method that displays a elementary/middle/or high school
    public abstract void describeSchool();
+
+   // Getters and setters for each variable, accessed from subclasses
    public void setEnrollment(int students)
    {
       enrollment = students;

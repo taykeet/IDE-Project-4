@@ -1,13 +1,13 @@
 public class SchoolDemo implements SchoolConstants
 {
    public static void main(String[] args) {
-
+       // Beginning of output, displaying interface constants
        System.out.println("---------------------------------");
        System.out.print("School System: " + SYSTEMNAME + "Telephone: " + COUNTYTEL + "Current Superintendent: " + SUPERINT);
        System.out.println("Here is a list of all the schools within the district:");
        System.out.println("---------------------------------");
 
-
+       // School objects for every school within Montgomery County
        School auburnElementary = new ElementarySchool();
        auburnElementary.setEnrollment(400);
        auburnElementary.setSchoolName(("Auburn Elementary"));
